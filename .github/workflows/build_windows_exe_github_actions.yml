@@ -36,7 +36,7 @@ jobs:
       - name: Build executable
         shell: pwsh
         run: |
-          pyinstaller --noconfirm --clean --onefile --noconsole --name HackerHousePoints hacker_points_exe_ready.py
+          pyinstaller --noconfirm --clean --onefile --noconsole --name HackerHousePoints hacker_points.py
 
       - name: Stage package
         shell: pwsh
